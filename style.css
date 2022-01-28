@@ -27,18 +27,18 @@ body {
     background: rgb(255, 176, 217)
   }
   table.GeneratedTable {
-    width: 100%;
-    background-color:mistyrose;
+    width: 50%;
+    background-color:papayawhip;
   border-collapse: separate;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color:deeppink;
     border-style: groove;
     color:black;
   }
   
   table.GeneratedTable td, table.GeneratedTable th {
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: deeppink;
     border-style: groove;
     padding: 3px;
   }
@@ -46,7 +46,10 @@ body {
   table.GeneratedTable thead {
     background-color: #ff0088;
   }
-  .box {
-    display: flex;
-    justify-content:flex-start;
-  }
+  
+    .box {
+      display: flex;
+      justify-content:space-between;
+      flex-basis: auto;
+      
+    }
