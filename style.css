@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: deeppink;
+    font-family: Courier;
+  } 
+  a {
+    color: mediumvioletred;
+  } 
+  
+  .buttonClass {
+    font-size:18px;
+    font-family:Courier;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:black;
+    border-color:#ee1eb5;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background:mistyrose;
+  }
+  
+  .buttonClass:hover {
+    background: rgb(255, 176, 217)
+  }
+  table.GeneratedTable {
+    width: 100%;
+    background-color:mistyrose;
+  border-collapse: separate;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: groove;
+    color:black;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: groove;
+    padding: 3px;
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #ff0088;
+  }
+    .flexDirection 
